@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackaton</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--Caja de puntos-->
+    <div class="score">
+        <div class="scoreP1">Puntos : 0</div>
+        <div class="scoreP2">Puntos : 0</div>
+    </div>
+
+    <!--Caja bienvenida y boton para iniciar-->
+    <div class="welcome" id="welcome-box">
+        <h2>Bienvenidos a Hackaton #1</h2>
+        <h4>Click en jugar para iniciar</h4>
+        <button class="start" id="startButton">Jugar</button>
+    </div>
+
+    <!--Pista-->
+    <div class="gameArea">
+        <div class="gameArea1" id="roadP1">
+            <div>
+                <!--Carros enemigos de la primera pista-->
+                <div><img class="enemy-car" id="enemy1" src="/img/car.png" alt=""></div>
+                <div><img class="enemy-car" id="enemy2" src="/img/car.png" alt=""></div>
+                <div><img class="enemy-car" id="enemy3" src="/img/car.png" alt=""></div>
+                <div><img class="enemy-car" id="enemy4" src="/img/car.png" alt=""></div>
+            </div>
+            <!--Carro jugador 1-->
+            <div id="player1-car"><img class="player1-car"  src="/img/car.png" alt=""></div>
+        </div>
+        <div class="gameArea2">
+            <div>
+                <!--Carros enemigos de la segunda pista-->
+                <div><img class="enemy-car" id="enemy5" src="/img/car.png" alt=""></div>
+                <div><img class="enemy-car" id="enemy6" src="/img/car.png" alt=""></div>
+                <div><img class="enemy-car" id="enemy7" src="/img/car.png" alt=""></div>
+                <div><img class="enemy-car" id="enemy8" src="/img/car.png" alt=""></div>
+            </div>
+            <!--Carro jugador 2-->
+            <div id="player2-car"><img class="player2-car"  src="/img/car.png" alt=""></div>
+        </div>
+    </div>
+
+    
+    
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
