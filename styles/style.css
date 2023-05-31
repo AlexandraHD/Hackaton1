@@ -51,7 +51,7 @@ body{
     justify-content: space-between;
 }
 
-.scoreP1{
+#scoreP1{
     top: 15px;
     left: 40px;
     background: #10ac84;
@@ -64,7 +64,7 @@ body{
     border-radius: 10px;
 }
 
-.scoreP2{
+#scoreP2{
     top: 15px;
     background: #10ac84;
     width: 200px;

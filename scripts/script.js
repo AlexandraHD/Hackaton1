@@ -75,6 +75,12 @@ document.getElementById("startButton").addEventListener('click', function() {
     })
 });
 
+// n=0
+//     setInterval(()=>{
+//         document.getElementById("scoreP1").innerText = 'Puntos : ${n}';
+//         n = n+1;
+//     })
+
     // player1.start = true;
     // player2.start = true;
     // player1.score = 0;
@@ -90,3 +96,5 @@ document.getElementById("startButton").addEventListener('click', function() {
          roadLineElement.style.top = roadLineElement.y + "px";
          gameArea.appendChild(roadLineElement);      //Lo agregamos al area del juego, a las vias.
     }
+
+
